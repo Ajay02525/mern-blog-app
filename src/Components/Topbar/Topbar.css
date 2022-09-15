@@ -1,0 +1,88 @@
+
+.top{
+    width: 100%;
+    height: 6rem;
+    background-color: #fff ;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+    
+} 
+
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.topCenter{
+    flex: 6;
+}
+
+/* .Logo{
+    font-size: 20rem;
+    margin-right: 10rem;
+    cursor: pointer;
+} */
+
+.topicon{
+    font-size: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.topImg{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.topListItem:hover{
+    color:#00acee ;
+  }
+
+.topSearchIcon{
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+ /* logo Color */
+
+ .linkedin{
+    color: #0072b1;
+  }
+
+  .facebook{
+    color: #4267B2;
+  }
+
+  .twitter{
+    color: #00acee;
+  }
+
+  .instagram{
+    color: #bc2a8d;
+  }
+
+
+ 

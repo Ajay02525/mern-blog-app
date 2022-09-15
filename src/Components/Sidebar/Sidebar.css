@@ -1,0 +1,88 @@
+.sidebar {
+    flex: 3;
+    margin: 2rem;
+    padding-bottom: 3rem;
+    background-color: #fdfbfb;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 1rem;
+    padding: .5rem;
+    width: 80%;
+    border-top: solid .1rem #a7a4a4;
+    border-bottom: solid .1rem #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .sidebarItem > img {
+    margin-top: 1.5rem;
+    width: 25rem;
+    height: 25rem;
+   
+  }
+  
+  .sidebarItem > p {
+    padding: 3rem;
+  }
+  
+  .sidebarList {
+    list-style: none;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+  }
+  
+  .siderbarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .sidebarSocial {
+    margin-top: 1.5rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .sidebarIcon {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+
+  /* logo Color */
+
+  .linkedin{
+    color: #0072b1;
+  }
+
+  .facebook{
+    color: #4267B2;
+  }
+
+  .twitter{
+    color: #00acee;
+  }
+
+  .instagram{
+    color: #bc2a8d;
+  }

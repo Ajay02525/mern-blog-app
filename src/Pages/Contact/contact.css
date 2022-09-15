@@ -1,0 +1,46 @@
+.contactPageTitle{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: 5rem 0 5rem 0;
+    font-family: Oswald,sans-serif;
+    font-size: 5rem;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+input, textarea{
+    max-width: 50rem;
+    color: black;
+    padding: 0.6rem 0.5rem;
+    padding-right: 15rem;
+    border: .1rem solid black;
+    text-transform: uppercase;
+    box-shadow: inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 128, 128, 0.836);
+    color: #fff;
+    border: none; 
+    cursor: pointer; 
+    box-shadow: .5rem .5rem 1rem gray;  
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: teal;
+   }

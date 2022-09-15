@@ -1,0 +1,83 @@
+.setting{
+   display: flex;
+} 
+
+.settingWrapper{
+    flex: 9;  
+    padding: 2rem;
+}
+
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingUpdateTitle{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color:lightcoral ;
+}
+
+.settingDeleteTitle{
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingPP{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+}
+
+.settingPP > img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.settingPPIcon{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+} 
+
+.settingForm > label{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.settingForm > input{
+    color: gray;
+    margin: 1rem 0;
+    height: 3rem;
+    border: none;
+    border-bottom: .1rem solid lightgray;
+}
+
+.settingSubmit{
+    width: 15rem;
+    align-self: center;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: teal;  
+    color: white;
+}
